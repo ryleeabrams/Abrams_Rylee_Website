@@ -7,7 +7,6 @@ gsap.from('.child-container', {
     stagger: 0.5,
     scrollTrigger: {
         trigger:'.child-container',
-        markers: true, 
     } 
 });
 
@@ -17,6 +16,5 @@ gsap.from('.hero-image', {
     ease: "power4.out",
     scrollTrigger: {
         trigger:'.hero-image',
-        markers: true, 
     } 
 });
