@@ -1,0 +1,240 @@
+
+body {
+    margin: 0;
+}
+.header {
+    display: flex;
+    justify-content: center;
+}
+.nav {
+    display: flex;
+    align-items: center;
+}
+.nav a {
+    padding: 0 75px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    font-family: "Mallanna", sans-serif;
+    font-size: 15pt;
+    color: black;
+}
+.navb a {
+    text-decoration: none;
+    color: white;
+    font-family: "Mallanna", sans-serif;
+    font-size: 15pt;
+}
+.nav p {
+    text-decoration: none;
+    color: black;
+    font-family: "Mallanna";
+    font-size: 22pt;
+    padding: 0 16px;
+}
+.navb {
+    text-decoration: none;
+    color: white;
+    font-family: "Mallanna";
+    font-size: 22pt;
+    padding: 0 16px;
+}
+.second nav {
+    font-family: "Mallana", san-serif;
+    font-style: normal;
+    font-size: 22pt;
+    padding: 0 16px;
+    text-decoration: none;
+    color: white;
+}
+.parent-container {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.child-container {
+    flex-basis: 33.33;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+.box1 { 
+    display: flex;
+    align-items: center;
+    background-color: #1C366F;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+.text-align {
+    text-align: center;
+}
+.align-items {
+    align-items: center;
+}
+.h1 {
+    font-family: "Italiana", sans-serif;
+    font-size: 35pt;
+}
+.h3 {
+    font-family: "Italiana", sans-serif;
+    font-size: 25pt;
+}
+.p {
+    font-family: "Mallanna", sans-serif;
+    font-size: 12pt;
+}
+.btn1 {
+    text-decoration: none;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    display: inline-block;
+    color: black;
+    font-family: "Mallanna", sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.btn2 {
+    text-decoration: none;
+    background-color: #B03230;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: inline-block;
+    color: white;
+    font-family: "Mallanna", sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.h-menu {
+    display: none;
+    border: none;
+    background-color: transparent;
+}
+.h-menu:hover {
+    cursor: pointer;
+}
+.material-symbols-outlined {
+    font-size: 22px;
+}
+.hero-image {
+    background-image: url(../images/header\ image.png);
+    background-size: cover;
+    min-height: 572px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.header-image-text {
+    color: white;
+    font-family: "Italiana";
+    font-size: 30pt;
+}
+.text-width {
+    max-width: 1020px;
+    margin: 0 auto;
+}
+.is-visible {
+    display: block;
+}
+.header img {
+        width: 100px;
+        height: auto;
+    }
+.hero-image {
+        text-align: center;
+        padding: 20px;
+    }
+.hero-image-text {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+ .nav-links {
+        display: none;
+    }
+.container {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+.child-container {
+        flex: 33.33%;
+        text-align: center;
+    }
+.box1 {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+    }
+.box1 img {
+        width: 100px;
+        height: auto;
+    }
+.parent-container {
+        text-align: center;
+        padding: 20px;
+    }
+.navb {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+    }
+.navb img {
+        width: 100px;
+        height: auto;
+    }
+    .is-visible {
+        display: block;
+    }
+
+@media (max-width: 400px) {
+        .header {
+            flex-direction: column;
+            padding: 10px 0;
+            justify-content: center;
+        }
+        .header img {
+            width: 150px;
+        }
+        .hero-image-text {
+            font-size: 16px;
+        }
+        .child-container {
+            flex: 100%;
+        }
+        .box1 {
+            flex-direction: column;
+            gap: 10px;
+        }
+        .navb {
+            flex-direction: column;
+        }
+        .navb img {
+            width: 80px;
+        }
+        .nav a {
+            padding: 10px 0;
+            display: contents;
+        }
+        .is-visible {
+            display: none;
+        }
+        .container {
+            flex-wrap: wrap;
+        }
+        .nav {
+            justify-content: center;
+        }
+    }

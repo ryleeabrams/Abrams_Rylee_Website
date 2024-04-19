@@ -1,11 +1,104 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <link rel="stylesheet" href="index.css">
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <div></div>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website HTML</title>
+    <link rel="stylesheet" href="styles/stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&family=Mallanna&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script defer src="js/index.js"></script>
+</head>
+<body>
+    <!--Header-->
+    <header class="header"> 
+        <nav class="nav"> 
+            <a href="https://www.kasamachicago.com/menus">Menu</a>
+            <a href="https://order.toasttab.com/online/kasama-1001-north-winchester-avenue">Order</a>
+            <a href="https://www.kasamachicago.com">
+                <img src="images/Kasama Primary Logo.png" alt="Kasama Logo">
+            </a>
+            <a href="https://www.kasamachicago.com">About</a>
+            <a href="https://www.kasamachicago.com/general">More</a>
+            <button class="h-menu">
+                <span class="material-symbols-outlined">menu</span>
+            </button>
+        </nav>
+    </header>
+    <!--Header image-->
+    <div class="hero-image">
+        <div class="image-text">
+            <p class="header-image-text">Authentic Filipino food located in the East Ukrainian Village of Chicago!</p>
+            <a class="btn1" href="https://www.kasamachicago.com">Learn More</a>
+        </div>
+    </div>
+    <!--Popular Dishes-->
+    <div class="text-align">
+        <h1 class="h1">Popular Dishes</h1>
+    </div>
+    <div class="parent-container container">
+        <div class="child-container">
+            <img src="images/dish 1.png" width="333" height="333" alt="Filipino Breakfast">
+            <h3 class="h3">Filipino Breakfast</h3>
+            <p class="p">Garlic rice, longanisa sausage or tocino, topped with egg.</p>
+        </div>
+        <div class="child-container">
+            <img src="images/dish 2.png" width="333" height="333" alt="Chicken Adobo">
+            <h3 class="h3">Chicken Adobo</h3>
+            <p class="p">Grilled chicken thigh with garlic rice or rice noodles.</p>
+        </div>
+        <div class="child-container">
+            <img src="images/dish 3.png" width="333" height="333" alt="Lumpia Shanghai">
+            <h3 class="h3">Lumpia Shanghai</h3>
+            <p class="p">Fried pork spring roll and chili sauce.</p>
+        </div>
+    </div>
+    <div class="text-align">
+        <a class="btn2" href="https://www.kasamachicago.com">View Full Menu</a>
+    </div>
+    <!--Visit Us In Person-->
+    <div class="parent-container box1 text-align">
+        <img class="is-visible" src="images/KasamaPattern 1.png" width="124" height="471" alt="Kasama Pattern">
+        <div class="text-width">
+            <h1 class="h1">Visit Us In Person</h1>
+            <p class="p">Experience some of the best Filipino food in Chicago by trying some of the many top rated dishes on our menu. We are located at, 1001 N. Winchester Ave. Chicago, Illinois 60622, or you can also follow the button to make a reservation below. Hope to see you soon!</p>
+            <div class="text-align">
+                <a class="btn1" href="https://www.kasamachicago.com">Make a Reservation</a> 
+            </div>
+        </div>
+        <img class="is-visible" src="images/KasamaPattern 1.png" width="124" height="471" alt="Kasama Pattern">
+    </div>
+</div>
+<!--Easy Online Ordering-->
+<div class="parent-container">
+    <div class="text-width">
+        <h1 class="h1">Easy Online Ordering</h1>
+        <p class="p">Can't come in person? Order online at Kasamachicago.com to try some of the most authentic and flavorful Filipino food located in central Chicago. Simply go to our website and direct yourself to the Order tab to order for pickup, quick and easy.</p>
+        <div class="text-align">
+            <a class="btn2" href="https://www.kasamachicago.com">Order Online</a>
+        </div>
+    </div>
+</div>
+<!--Footer-->
+<nav class="box1 navb nav"> 
+    <a href="https://www.kasamachicago.com">Hours</a>
+    <a href="https://www.kasamachicago.com/general">Contact</a>
+    <a href="https://www.kasamachicago.com">
+        <img src="images/KasamaSecondaryLogo.png" width="150" height="150">
+    </a>
+    <a href="https://www.kasamachicago.com">Location</a>
+    <a href="https://www.kasamachicago.com">Other</a>
+</nav>  
+<div class="box1">
+    <a href="https://www.kasamachicago.com">
+        <img src="Images/social icons 1.png" width="188" height="72">
+    </a>
+</div>
+</body>
 </html>
